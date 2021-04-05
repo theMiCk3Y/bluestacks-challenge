@@ -1,0 +1,18 @@
+@import "../../styles/vars.scss";
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: $primary;
+  .header-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    max-width: $max-page-width;
+  }
+}

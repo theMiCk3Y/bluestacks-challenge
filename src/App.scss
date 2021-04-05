@@ -1,0 +1,10 @@
+@import './styles/vars.scss';
+
+.App {
+  // text-align: center;
+  h1 {
+    color: $heading;
+    font-size: 48px;
+    margin: 40px 0;
+  }
+}
