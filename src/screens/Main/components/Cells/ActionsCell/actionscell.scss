@@ -1,0 +1,26 @@
+@import "../../../../../styles/vars.scss";
+
+.actions-cell {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  .action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    .action-image {
+      height: 24px;
+      margin-right: 6px;
+    }
+    .action-text {
+      font-size: 14px;
+      line-height: 16px;
+      color: $table-cell-action-text;
+      margin-right: 40px;
+    }
+    &:last-child > .action-text {
+      margin-right: 0;
+    }
+  }
+}

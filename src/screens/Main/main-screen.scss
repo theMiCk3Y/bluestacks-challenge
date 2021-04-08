@@ -1,0 +1,11 @@
+@import "../../styles/vars.scss";
+
+.main-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .main-container {
+    flex: 1;
+    max-width: $max-page-width;
+  }
+}

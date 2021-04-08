@@ -1,0 +1,27 @@
+@import "../../styles/vars.scss";
+
+.table-component {
+  width: 100%;
+  border-spacing: 0;
+  box-shadow: 0px 2px 10px 0px #00000010;
+  thead {
+    th {
+      border: none;
+      background-color: $table-heading-background;
+      color: $table-heading-text;
+      text-align: left;
+      padding: 12px 20px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+  }
+  tbody {
+    tr {
+      td {
+        border-bottom: 1px solid $table-separator-color;
+        padding: 24px 20px;
+      }
+    }
+  }
+}
